@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght,MONO@200..800,1&family=Yomogi&display=swap" rel="stylesheet">
+    <title>Commissions | Windah</title>
+    <style>
+        /* ORIGINAL STYLES */
+        html {
+            font-family: "Yomogi", monospace;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        body {
+            background-color: #0a90b4;
+        }
+
+        ul {
+            padding-left: 0;
+        }
+
+        div, section, article, img {
+            border-radius: 5px;
+        }
+
+        img {
+            display: flex;
+            margin: 10px auto;
+            justify-content: center;
+            max-width: 250px;
+        }
+
+        h3 {
+            border: #053643 2px solid;
+            padding: 5px;
+            margin-top: 30px;
+        }
+
+        ul#nav-link {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            background-color: #d2dbeb;
+            list-style: none;
+        }
+
+        li {
+            text-decoration: underline;
+            list-style-type: none;
+        }
+
+        /* SPECIALIZED / LAYOUT */
+        #page-title {
+            text-align: center;
+            background-color: #d2dbeb;
+            margin-top: 0;
+        }
+
+        #main-div {
+            background-color: #69a2bf;
+            margin: 10px;
+            padding: 10px;
+            display: grid;
+        }
+
+        #three-main-cols {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        #three-main-cols section {
+            padding: 10px;
+        }
+
+        #col2, #col3 {
+            background-color: #d2dbeb;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* MOBILE RESPONSIVENESS (Same as we fixed earlier) */
+        @media (max-width: 768px) {
+            #three-main-cols {
+                grid-template-columns: 1fr;
+            }
+            ul#nav-link {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="main-div">
+        <div id="vertical">
+            <div id="page-title"><h1>Current Commission</h1></div>
+
+            <div id="nav">
+                <ul id="nav-link">
+                    <li><a href="/index.html" style="color: inherit;">home</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="three-main-cols">
+
+            <section id="profile">
+                <article>
+                    <h3>intro</h3>
+                    <p>Hii, this is windah (or fumi/lalynda, depending on which side of me u are referring to lol).</p>
+                    <p>Thank you for checking out this page! You can check my availability and anything related to my commissions here. :)</p>
+                    <p>By the way, sometimes I might reply late because I overlooked your message. Please just double text me :)</p>
+                </article>
+            </section>
+
+            <section id="col2">
+                <article id="art-coms">
+                    <h3>art coms</h3>
+                    <p>Availability: 3/3</p>
+
+                    <p>Artworks:</p>
+                    <img src="../images/bluegirl.png">
+                    <img src="../images/forestlady.jpg">
+
+                    <p>My specialization: portrait anime style</p>
+                    <p>Delivery: 3-10 days, depending on your queue</p>
+                    <p>Pricing (international): pay what you want with min. $10 (for now)</p>
+
+                    <p>How to commission?</p>
+                    <ul>
+                        <li>Discord: @fumiaww</li>
+                        <li>Insta: @fumiaw.studio</li>
+                    </ul>
+                </article>
+            </section>
+
+            <section id="col3">
+                <article id="website-coms">
+                    <h3>one page site</h3>
+                    <p>Availability: 1/1</p>
+
+                    <p>Example work:</p>
+                    <ul>
+                        <li>this current site</li>
+                        <li><a href="https://limbaiwindah.github.io/20th-bday-card/">my 20th bday card</a></li>
+                    </ul>
+
+                    <p>Pricing (international): pay what you want with min. $50 (for now)</p>
+                    <p>Delivery: 7 days</p>
+
+                    <p>How to commission?</p>
+                    <ul>
+                        <li>Discord: @fumiaww</li>
+                        <li>Insta: @windah.limbai</li>
+                    </ul>
+                </article>
+            </section>
+
+        </div>
+
+    </div>
+
+    <footer>coded and designed by windah</footer>
+    
+</body>
+</html>

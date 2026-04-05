@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght,MONO@200..800,1&family=Yomogi&display=swap" rel="stylesheet">
+    <title>Cherished | Windah</title>
+    <style>
+        /* ORIGINAL STYLES MAPPED FROM YOUR HOME PAGE */
+        html {
+            font-family: "Yomogi", monospace;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        body {
+            background-color: #0a90b4;
+        }
+
+        ul {
+            padding-left: 0;
+        }
+
+        div, section, article, img {
+            border-radius: 5px;
+        }
+
+        img {
+            display: flex;
+            margin: 10px auto;
+            justify-content: center;
+            max-width: 250px;
+        }
+
+        h3 {
+            border: #053643 2px solid;
+            padding: 5px;
+            margin-top: 30px;
+        }
+
+        ul#nav-link {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            background-color: #d2dbeb;
+            list-style: none;
+        }
+
+        li {
+            text-decoration: underline;
+        }
+
+        /* SPECIALIZED / LAYOUT */
+        #page-title {
+            text-align: center;
+            background-color: #d2dbeb;
+            margin-top: 0;
+        }
+
+        #main-div {
+            background-color: #69a2bf;
+            margin: 10px;
+            padding: 10px;
+            display: grid;
+        }
+
+        #three-main-cols {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        #three-main-cols section {
+            padding: 10px;
+        }
+
+        #col2, #col3 {
+            background-color: #d2dbeb;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* MOBILE RESPONSIVENESS */
+        @media (max-width: 768px) {
+            #three-main-cols {
+                grid-template-columns: 1fr;
+            }
+            ul#nav-link {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="main-div">
+        <div id="vertical">
+            <div id="page-title"><h1>Cherished</h1></div>
+
+            <div id="nav">
+                <ul id="nav-link">
+                    <li><a href="/index.html" style="color: inherit;">home</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="three-main-cols">
+
+            <section id="profile">
+                <article>
+                    <h3>Status</h3>
+                    <h1>Coming Soon...</h1>
+                </article>
+            </section>
+
+            <section id="col2">
+                <article>
+                    <p>I haven't filled this part yet, and honestly idk what i am gonna put here lol.</p>
+                </article>
+            </section>
+
+            <section id="col3">
+                <article>
+                    </article>
+            </section>
+
+        </div>
+
+    </div>
+
+    <footer>coded and designed by windah</footer>
+    
+</body>
+</html>
